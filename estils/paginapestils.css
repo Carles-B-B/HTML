@@ -9,4 +9,35 @@ body{
 }
 #textsuperior{
     color:white;
+    width: 70%;
+}
+
+#textwebp {
+    color:white;
+    width: 25%;
+}
+
+#index {
+    background-color: peru;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 2%;
+    margin-top:3%;
+    padding-left:20px;
+    height: 200px;
+}
+
+#seleccionat {
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+#biografia {
+    margin-top: 3%;
+    margin-left:20px;
 }
