@@ -2,11 +2,32 @@ body{
     margin:0px;
 }
 
+#divies{    
+    height: 50px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#divnom{
+    text-align: center;
+}
+
+.contacte{
+    margin-top: 30px;
+    text-align: center;
+    cursor:pointer;
+    border: 1px solid white;
+    background-color: black;
+    color:white;
+}
+
 #divsuperior{
     background-color: black;
-    padding:1%;
-    
+    color:white;
+    display: grid;
+    grid-template-columns: 20% 60% auto;
 }
+
 #textsuperior{
     color:white;
     width: 70%;
@@ -18,23 +39,21 @@ body{
 }
 
 #index {
-    background-color: peru;
-    float: left;
+    background-color: black;
     display: flex;
-    flex-direction: column;
-    width: 150px;
-    margin: 2%;
-    margin-top:3%;
-    padding-left:20px;
-    height: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30px;
+
 }
 
 #seleccionat {
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .link {
-    text-decoration: underline;
+   color: white;
+   text-decoration: none;
 }
 
 #biografia {
