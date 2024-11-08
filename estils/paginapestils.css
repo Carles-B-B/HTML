@@ -1,6 +1,6 @@
 body{
     margin:0px;
-    background-color: #f5f5f5;
+    background-color: #F4EBD0;
 }
 
 #divies{    
@@ -8,6 +8,12 @@ body{
     margin-top: 10px;
     text-align: left;
     padding-left: 10px;
+  
+}
+
+#IES{
+     color: white;
+    text-decoration: none;
 }
 
 #divnom{
@@ -34,14 +40,13 @@ body{
 }
 
 .divsuperior{
-    background-image: linear-gradient(to bottom right, #283048,#859398);
+    background-color: #122620 ;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     top: 0px;
     width: 95%;
     margin-left: 2.5%;
     margin-right: 2.5%;
-
 
 }
 
@@ -69,63 +74,125 @@ body{
     flex-direction: row;
     justify-content: space-around;
     height: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
+.indexdiv{
+    width: 33.3%;
+    text-align: center;
+}
 
+.biindexdiv{
+    width: 33.3%;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+}
+
+.maindexdiv{
+    width: 33.3%;
+    text-align: center;
+    border-bottom-right-radius: 10px;
 }
 
 #seleccionat {
     font-weight: 900;
+    background-color: #0E1B18;
 }
 
-.link {
+.indexlink {
    color: white;
    text-decoration: none;
+   background-color: transparent;
+   border: none;
 }
 
 #titol {
     margin-top: 3%;
     margin-left:20px;
+    margin-right:20px;
 }
 
 .introduccio {
-    border: solid 2px red;
+    border: solid 2px #422F24;
     border-radius: 5px;
     display: grid;
     margin-top: 5%;
-    width: 60%;
+    width: 50%;
     justify-self: center;
-    background-color: #ebedef ;
+    background-color: #694A38;
+    color: white;
 }
 
 #introduccionom{
-    padding-left: 10%;
+    padding-left: 2.5%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
 
+
+#imgintro{
+    float: top;
+    width: 100%;
+    height: 100%;
+    align-items: end;
+    border-radius: 5px;
 
 }
 
-#in2{
-
-    padding-left: 15%;
-}
-
-#introduccioimg{
-    justify-self: end;
-    padding-right: 15px;
+#textintro{
+    line-height: 4;
 
 }
 
 .taulaesports{
-
     border: solid 2px black;
+    width: 50%;
 }
 
-#cronologia{
-
+.tdesports{
     border: solid 1px black;
+    padding: 10px;
+
 }
 
-#esport{
+.link2{
+    color:black;
 
-    border: solid 1px black;
+}
+
+.llegenda{
+
+    border: solid 2px #422F24;
+    color: white;
+    border-radius: 5px;
+    float: left;
+    margin-top: 5%;
+    padding: 10px;
+    padding-top: 0px;
+    margin-left: 2.5%;
+    background-color: #694A38;
+
+}
+
+.link3{
+
+    color:white;
+    text-decoration: none;
+}
+
+.link3:hover{
+    font-weight: 900;
+}
+
+#footer{
+    background-color: #122620 ;
+
+
+}
+
+h1, h2, h3, header{
+    src: local();
+
 }
 
