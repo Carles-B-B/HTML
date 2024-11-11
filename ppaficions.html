@@ -15,35 +15,34 @@
                 <h1>Webs Personals</h1>
             </div>
             <div id="divcontact" style="text-decoration: underline;">
-                <input type="button" class="contacte" value="Contacta'm" onclick="alert ('Email: carlesbergasbascunana@iesmarratxi.org\nGitHub: Carles_B_B')">
+                <input type="button" class="contacte" value="Contacta'm" onclick="alert ('Email: carlesbergasbascunana@iesmarratxi.org\nGitHub: Carles-B-B')">
             </div>
         </header>
         
         <div class="index">
-            <div class="biindexdiv"><a class="indexlink" href="file:///C:\Users\carle\Desktop\html\HTML\ppbiografia.html">Biografia</a></div>
-            <div class="indexdiv" id="seleccionat"><a class="indexlink">Aficions</a></div>          
-            <div class="maindexdiv"><a class="indexlink" href="file:///C:\Users\carle\Desktop\html\HTML\ppmascota.html">Mascota</a></div>
+            <input type="button" class="biindexdiv" value="Biografia" onclick="location='C:/Users/carle/Desktop/html/HTML/ppbiografia.html'">
+            <input type="button" class="indexdiv" value="Aficions" id="seleccionat">  
+            <input type="button" class="maindexdiv" value="Mascota" onclick="location='C:/Users/carle/Desktop/html/HTML/ppmascota.html'"> 
         </div>
     </div>
 
         <div class="llegenda">
-                <p><strong>Apartats dins la pàgina</strong></p>
-                <ul>
-                    <p><a href="#diva1" class="link3">Deport</a></p>
-                    <p><a href="#diva2" class="link3">Cuina</a></p>
-                    <p><a href="#diva3" class="link3">Invertir temps amb els meus amics</a></p>
+                <p style="padding-left: 2%"><strong>Apartats dins la pàgina</strong></p>
+                <ul id="llegendaul">
+                    <li class="llegendali"><a href="#diva1">Deport</a></li>
+                    <li class="llegendali"><a href="#diva2">Cuina</a></li>
+                    <li class="llegendali"><a href="#diva3">Invertir temps amb els meus amics</a></li>
                 </ul>    
-            </div>
-
-            <div class="introduccio">
-                <div id="introduccionom">
-                    <p id="textintro"><strong>NOM COMPLET:</strong> Carles Bergas Bascuñana<br><strong>ATA DE NAIXAMENT:</strong>D 28/11/2007<br><strong>LLOC DE NAIXAMENT:</strong> Marratxi, Mallorca<br><strong>SIGNE DEL ZODIAC:</strong> SAGITARIO<br><strong>CRIMINOLEG</strong></p>
-                    <img id="imgintro" src="../HTML\IMGs\Foto_Introduccio.jpg">
-                </div>
-            </div> 
         </div>
 
-    <div id="titol">
+        <div class="introduccio">
+            <div id="introduccionom">
+                <p id="textintro"><strong>NOM COMPLET:</strong> Carles Bergas Bascuñana<br><strong>ATA DE NAIXAMENT:</strong> 28/11/2007<br><strong>LLOC DE NAIXAMENT:</strong> Marratxi, Mallorca<br><strong>SIGNE DEL ZODIAC:</strong> Sagitario<br><strong>CRIMINOLEG</strong></p>
+                <img id="imgintro" src="../HTML\IMGs\Foto_Introduccio.jpg">
+            </div>
+        </div> 
+
+    <div id="apartats">
         <div>
             <div id="diva1">
                 <h3>Deport</h3>
@@ -152,7 +151,7 @@
 
             <div id="diva2">
                 <h3>Cuina</h3>
-                <p>Una de les meves majors aficions és la cuina. Gracies al tems a casa que pasava a la quarenena del COVID vaig poder practicar molt aquesta activitat.
+                <p id="text_mascota">Una de les meves majors aficions és la cuina. Gracies al tems a casa que pasava a la quarenena del COVID vaig poder practicar molt aquesta activitat.
                      Des de aquell moment no he deixat de cuinar, fent el dinar o sopar quan tenc temps. <br>Una de les tecniques que mes em costa de dominar és fer un 
                      bon tall als ingredients, però despres de 4 anys que fa ara, poc a poc em van sortint talls més elaborats i de millor tècnica. Axiò sí, la velocitat
                       no és la meva fortalesa. <br><br>Durant aquests 4 anys, he triat un parel de plats per millorar-los a la meva manera i gust:</p>
@@ -172,5 +171,9 @@
         </div>
     </div>
     
+
+    <footer>
+        <p>Footer</p>
+    </footer>
 </body>
 </html>

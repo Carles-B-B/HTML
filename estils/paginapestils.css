@@ -47,6 +47,7 @@ body{
     width: 95%;
     margin-left: 2.5%;
     margin-right: 2.5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 10px 30px 0 rgba(0,0,0,0.19);
 
 }
 
@@ -81,23 +82,36 @@ body{
 .indexdiv{
     width: 33.3%;
     text-align: center;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 .biindexdiv{
     width: 33.3%;
     text-align: center;
     border-bottom-left-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 .maindexdiv{
     width: 33.3%;
     text-align: center;
     border-bottom-right-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 #seleccionat {
     font-weight: 900;
     background-color: #0E1B18;
+    cursor:default;
 }
 
 .indexlink {
@@ -107,7 +121,7 @@ body{
    border: none;
 }
 
-#titol {
+#apartats {
     margin-top: 3%;
     margin-left:20px;
     margin-right:20px;
@@ -122,6 +136,7 @@ body{
     justify-self: center;
     background-color: #694A38;
     color: white;
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.19);
 }
 
 #introduccionom{
@@ -141,8 +156,9 @@ body{
 }
 
 #textintro{
-    line-height: 4;
-
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .taulaesports{
@@ -168,31 +184,117 @@ body{
     border-radius: 5px;
     float: left;
     margin-top: 5%;
-    padding: 10px;
     padding-top: 0px;
     margin-left: 2.5%;
     background-color: #694A38;
+    width: 20%;
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.19);
 
 }
 
-.link3{
+ul{
+    list-style-type: none;
+    padding-left:0%;
+    width: 100%;
+}
 
-    color:white;
+li a {
+    display: block;
+    background-color:transparent;
     text-decoration: none;
+    color: white;
+    line-height: 2;
+    padding-left:2%;
+
+    
 }
 
-.link3:hover{
-    font-weight: 900;
+li a:hover {
+    background-color: #36251b;
+    transition: 0.2s;
 }
 
-#footer{
-    background-color: #122620 ;
 
 
-}
 
 h1, h2, h3, header{
     src: local();
 
 }
 
+footer{
+    background-color: #2A313C;
+    margin-bottom: -18px;
+    color: white;
+}
+
+#copyright{
+    font-size:x-small;
+}
+
+#foto1{
+    display:grid;
+    grid-template-columns: 20% auto;
+}
+
+#foto2{
+    margin-top: 2%;
+    display:grid;
+    grid-template-columns: auto 20%;
+}
+
+#foto3{
+    margin-top: 2%;
+    display:grid;
+    grid-template-columns: auto 70%;
+
+}
+
+#foto4{
+    margin-top: 2%;
+    display:grid;
+    grid-template-columns: auto 20%;
+}
+
+#foto5{
+    margin-top: 2%;
+    display:grid;
+    grid-template-columns: auto 80%;
+}
+
+#foto6{
+    margin-top: 2%;
+    display:grid;
+    grid-template-columns: auto 20%;
+}
+
+tr{
+    background-color: #A98C23;
+    border: none;
+}
+
+td, ol {
+    background-color: #694A38;
+    color: white;
+
+}
+
+#fotos{
+
+    margin-right: 10px;
+
+}
+
+#XDXD{
+    margin: 2%;
+}
+
+#textobio1{
+    padding-left: 2%;
+}
+
+.biofotos{
+
+    margin: 2%;
+
+}
