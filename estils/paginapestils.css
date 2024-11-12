@@ -1,6 +1,7 @@
 body{
     margin:0px;
     background-color: #F4EBD0;
+    
 }
 
 #divies{    
@@ -124,7 +125,14 @@ body{
 #apartats {
     margin-top: 3%;
     margin-left:20px;
-    margin-right:20px;
+    margin-right:18%;
+
+}
+
+#apartats2 {
+    margin-top: 3%;
+    margin-left:20px;
+
 }
 
 .introduccio {
@@ -173,7 +181,8 @@ body{
 }
 
 .link2{
-    color:black;
+    color:white;
+    text-decoration: underline;
 
 }
 
@@ -216,9 +225,19 @@ li a:hover {
 
 
 
+p, li, td, ol, ul{
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
 
-h1, h2, h3, header{
-    src: local();
+h1, h2, th, h3, header, .contacte{
+
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 
 }
 
@@ -296,5 +315,37 @@ td, ol {
 .biofotos{
 
     margin: 2%;
+    margin-right: 18%;
 
+}
+
+#anuncios{
+
+    border: 3px solid #ccc;
+    color:white;
+    background-color: #422F24;
+    border-radius: 10px;
+    padding: 30px;
+    width: 10%;
+    text-align: center;
+    right: 0;
+    position: fixed;  
+    align-items: center ;
+    margin-right:2.5%;
+    margin-top: 5%;
+    font-size: 0.9rem;
+
+
+}
+
+#ad-text {
+    margin-bottom: 1.5%;
+    text-align: center;
+    text-wrap: wrap;
+    margin: 0;
+}
+
+#ad-video {
+    display: flex;
+    justify-content: center;
 }
